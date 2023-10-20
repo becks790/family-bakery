@@ -1,0 +1,247 @@
+:root {
+  scroll-behavior: smooth;
+}
+body {
+  /* font-family: "Alegreya", serif; */
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Alegreya Sans", sans-serif;
+  margin: 0;
+
+}
+
+
+.home {
+  min-height: 100vh;
+
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+}
+.home .container {
+  padding: 15px 75px;
+  background-color: rgba(0, 0, 0, 0.473);
+}
+.logo img {
+  float: left;
+  width: 175px;
+}
+
+.container .navbar ul {
+  float: right;
+}
+
+.container .navbar ul li {
+  float: left;
+  list-style: none;
+  margin-left: 35px;
+  font-size: 20px;
+}
+.container .navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.container .navbar ul li a:hover {
+  color: #8e7754;
+}
+.clr {
+  clear: both;
+}
+.home .content {
+  width: fit-content;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 150px;
+  color: white;
+}
+.content h1 {
+  font-size: 70px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.content p {
+  font-size: 20px;
+}
+.content .btns {
+  padding: 15px 28px;
+  font-size: 15px;
+  background-color: transparent;
+
+  border: 1px solid white;
+}
+.content .btn1 {
+  background-color: #8e7754;
+}
+.content .btns a {
+  text-decoration: none;
+  color: white;
+}
+.content .btns:hover {
+  background-color: white;
+  transition: 0.3s linear;
+  color: black;
+}
+.content .btns a:hover {
+  color: black;
+}
+.secTwo {
+  height: 100vh;
+  padding: 50px;
+
+  overflow: auto;
+}
+
+.secTwo .container {
+  overflow: auto;
+  margin-top: 120px;
+}
+.secTwo .container img {
+  width: 550px;
+  float: left;
+}
+
+.secTwo .container .content {
+  float: right;
+  width: 50%;
+  margin-top: 30px;
+}
+.secTwo .container .content .table i {
+  border: 0.5px solid #8e7754;
+  font-size: 25px;
+  border-radius: 50%;
+  padding: 5px;
+  color: #8e7754;
+}
+.secTwo .container .content p {
+  color: #686868;
+}
+
+.secThree {
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  overflow: auto;
+}
+.secThree .container {
+  margin-top: 120px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.secThree .container img {
+  float: right;
+  width: 550px;
+}
+.secThree .container .content {
+  float: left;
+  width: 50%;
+  margin-top: 60px;
+}
+.secThree .container .content h2 {
+  font-size: 30px;
+}
+
+.secThree .container .content p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #686868;
+}
+
+.secFour {
+  margin: 0px;
+  padding: 0;
+  text-align: center;
+  overflow: auto;
+  min-height: 100vh;
+}
+.secFour .container .imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  padding: 20px;
+  margin: 20px;
+}
+.secFour .container .imgs img {
+  width: 100%;
+}
+.secFour .container .imgs .img {
+  margin: 20px;
+}
+
+.secFive {
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  overflow: auto;
+}
+.secFive .container {
+  margin-top: 90px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.secFive .container img {
+  float: right;
+  width: 500px;
+  border: 1px solid #8e7754;
+  margin-top: 40px;
+}
+.secFive .container .content {
+  float: left;
+  width: 50%;
+}
+.secFive .container .content h2 {
+  font-size: 30px;
+}
+
+.secFive .container .content p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #686868;
+}
+.secFive .container .content .table i {
+  border: 0.5px solid #8e7754;
+  font-size: 17px;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  background-color: #8e7754;
+}
+
+.footer {
+  background-color: #403d38;
+  overflow: auto;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 30px;
+  color: #a8a8a8;
+  line-height: 30px;
+
+}
+.footer .container .qur-1 {
+  width: 25%;
+}
+.footer .container .qur-2 {
+  width: 25%;
+}
+.footer .container .qur-3 {
+  width: 25%;
+}
+
+.cpyright {
+  background-color: #272522;
+  text-align: center;
+  height: 350px;
+  overflow: auto;
+}
+.cpyright .logo-2 {
+margin-top: 80px;
+color: #686868;
+}
+.cpyright .media a {
+  font-size: 40px;
+  color: #8e7754;
+  margin: 5px;
+}
